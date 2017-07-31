@@ -12,6 +12,9 @@ The components: Switching Power Supply, Microcontroller, Solid State Relay (SSR)
 
 ## Components
 
-* Switching Power Supply
-* MicrocontrollerSolid State Relay (SSR)
-* Current Sensor
+* Switching Power Supply: 
+  * Input 230V AC
+  * Output 7,5 V DC, 2 A
+* Microcontroller
+* SSR 
+* Current Sensor: SCT 013-030 30A / 1V
