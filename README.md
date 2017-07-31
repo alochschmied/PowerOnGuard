@@ -10,15 +10,14 @@ It is simple: A box that provides electricity while its reset button is not blin
 
 The components: Switching Power Supply, Microcontroller, Solid State Relay (SSR), Current Sensor, ...
 
-## Components
+## Main Components
 
 * Aluminum case: 222 x 146 x 55 mm
 * Switching Power Supply: 
   * Input 230V AC
   * Output 7,5 V DC, 2 A
 * Microcontroller: Arduino Nano v3
-* SSR: RA2425-D06
-* Thermal Compounds for SSR
+* SSR: RA2425-D06 (use some thermal compounds for good heat dissipation)
 * Current Sensor: SCT 013-030 30A / 1V
 
 ## Function in more detail
