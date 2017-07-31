@@ -13,12 +13,15 @@ The components: Switching Power Supply, Microcontroller, Solid State Relay (SSR)
 ## Main Components
 
 * Aluminum case: 222 x 146 x 55 mm
+* 230V power cord and socket
 * Switching Power Supply: 
   * Input 230V AC
   * Output 7,5 V DC, 2 A
 * Microcontroller: Arduino Nano v3
 * SSR: RA2425-D06 (use some thermal compounds for good heat dissipation)
 * Current Sensor: SCT 013-030 30A / 1V
+* Button with red LED
+* Board and all components of the remaining circuit
 
 ## Function in more detail
 Unlike most commercially available solutions to switch off a device after it consumed energy for too long, this guard works also with devices which have short periods when no power is consumed, but the device is still considered to be consuming power.
