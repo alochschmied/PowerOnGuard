@@ -38,4 +38,4 @@ Three potentiometers are used to configure the device for a certain device:
 
 ## Circuit
 ![PowerOnGuard_Circuit_Breadboard](circuit/PumpGuard_bb.jpg)
-![PowerOnGuard_Circuit_PCB](circuit/PumpGuard_pcb.jpg
+![PowerOnGuard_Circuit_PCB](circuit/PumpGuard_pcb.jpg)
