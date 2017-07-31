@@ -2,7 +2,7 @@
 Arduino based project limiting the duration a device can consume electricity even if the device consumes only periodically like certain water pumps.
 
 ## The outside and general functionality
-![PowerOnGuard1](docs/DSC_0082.JPG)
+![PowerOnGuard0](docs/DSC_0082.JPG)
 
 It is simple: A box that provides electricity while its reset button is not blinking. It starts to blink when power has been consumed for too long. To restart the system and provide power again the reset button must be pressed.
 
@@ -36,3 +36,5 @@ Three potentiometers are used to configure the device for a certain device:
   Some machines like pumps draw amps for some time and then stop to draw amps, but they are still "on", e.g. pump water.
   This propery is to "virtually" extend the duration where amps are actually drawn to allow the algorithm to account for such machines.
 
+## Circuit
+![PowerOnGuard_Circuit](circuit/PumpGuard_bb.jpg)
