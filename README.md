@@ -8,7 +8,10 @@ It is simple: A box that provides electricity while its reset button is not blin
 
 ![PowerOnGuard1](docs/DSC_0081.JPG)
 
-The components: Microcontroller, Solid State Relay (SSR), Current Sensor, ...
+The components: Switching Power Supply, Microcontroller, Solid State Relay (SSR), Current Sensor, ...
 
-## How is it done?
+## Components
 
+* Switching Power Supply
+* MicrocontrollerSolid State Relay (SSR)
+* Current Sensor
