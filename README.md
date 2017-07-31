@@ -28,9 +28,11 @@ Three potentiometers are used to configure the device for a certain device:
 
   The minimum amperes that need to drawn such that the algorithm starts to count the time since when this started.
 * maxDurationSeconds: 0 ... 3600s (=1h)
+
   The maximum time in seconds that amps may be drawn. Afterwards the state is toggled and power is switched off.
   The red LED will start to blink. To get power again, the reset switch must be pressed. It will toggle the state.
 * durationExtensionSeconds: 0 ... 300s
+
   Some machines like pumps draw amps for some time and then stop to draw amps, but they are still "on", e.g. pump water.
   This propery is to "virtually" extend the duration where amps are actually drawn to allow the algorithm to accound for such machines.
 
