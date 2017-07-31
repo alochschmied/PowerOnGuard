@@ -22,8 +22,8 @@ The components: Switching Power Supply, Microcontroller, Solid State Relay (SSR)
 * Current Sensor: SCT 013-030 30A / 1V
 
 ## Function in more detail
-Unlike most commercially available solutions to switch off a device after it consumed energy for too long, this guard works also with devices which have short periods when no power is consumed, but the device is still considered to be conuming power.
-Three potentiometers are used to configure the device for a certain device:
+Unlike most commercially available solutions to switch off a device after it consumed energy for too long, this guard works also with devices which have short periods when no power is consumed, but the device is still considered to be consuming power.
+Three potentiometers are used to configure the system for a certain device:
 * ampsThreshold: 0 ... 10 A
 
   The minimum amperes that need to drawn such that the algorithm starts to count the time since when this started.
