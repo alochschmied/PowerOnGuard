@@ -37,4 +37,5 @@ Three potentiometers are used to configure the device for a certain device:
   This propery is to "virtually" extend the duration where amps are actually drawn to allow the algorithm to account for such machines.
 
 ## Circuit
-![PowerOnGuard_Circuit](circuit/PumpGuard_bb.jpg)
+![PowerOnGuard_Circuit_Breadboard](circuit/PumpGuard_bb.jpg)
+![PowerOnGuard_Circuit_PCB](circuit/PumpGuard_pcb.jpg
