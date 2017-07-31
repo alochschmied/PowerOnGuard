@@ -34,5 +34,5 @@ Three potentiometers are used to configure the device for a certain device:
 * durationExtensionSeconds: 0 ... 300s
 
   Some machines like pumps draw amps for some time and then stop to draw amps, but they are still "on", e.g. pump water.
-  This propery is to "virtually" extend the duration where amps are actually drawn to allow the algorithm to accound for such machines.
+  This propery is to "virtually" extend the duration where amps are actually drawn to allow the algorithm to account for such machines.
 
