@@ -16,6 +16,7 @@ class Controls {
     boolean isResetPressed();
     void resetLedOn(boolean on);
     void powerLedOn(boolean on);
+    void powerLedBlink(boolean blink);
     void readPotis();
 
     int getDurationExtensionSeconds();

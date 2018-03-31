@@ -11,7 +11,8 @@ const byte PIN_IN_POTI_EXT=16;
 const byte PIN_IN_POTI_DUR=14;
 
 const byte PIN_OUT_LED_RED = 4;
-const byte PIN_OUT_LED_GREEN = 6;
+// const byte PIN_OUT_LED_GREEN = 6;
+const byte PIN_OUT_LED_GREEN = 5;
 const byte PIN_IN_RESET_BUTTON = 2;
 const byte PIN_OUT_SSR = 7;
 

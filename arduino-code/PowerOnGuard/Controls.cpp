@@ -21,19 +21,23 @@ void Controls::setup(buttonOnHigh onReset) {
   durationExtensionPoti.setup(PIN_IN_POTI_EXT);
   ampsThresholdPoti.setup(PIN_IN_POTI_AMPS);
   maxDurationPoti.setup(PIN_IN_POTI_DUR);
-  
+
   redLED.setup(PIN_OUT_LED_RED);
   greenLED.setup(PIN_OUT_LED_GREEN);
   resetButton.setup(PIN_IN_RESET_BUTTON, onReset);
 }
 
 void Controls::update() {
+  greenLED.update();
   redLED.update();
   resetButton.update();
 }
 
 void Controls::signalShutdown(boolean shutdown) {
   redLED.blink(shutdown);
+  if (shutdown == true) {
+    greenLED.off();
+  }
 }
 
 boolean Controls::isResetPressed() {
@@ -54,6 +58,10 @@ void Controls::powerLedOn(boolean on) {
   } else {
     greenLED.off();
   }
+}
+
+void Controls::powerLedBlink(boolean blink) {
+  greenLED.blink(blink);
 }
 
 void Controls::readPotis() {
@@ -91,7 +99,7 @@ double Controls::getAmpsThreshold() {
 
 int Controls::getMaxDurationSeconds() {
   const int minOut = 0;
-  const int maxOut = 60*60; // 1h
+  const int maxOut = 60 * 60; // 1h
   // map(value, fromLow, fromHigh, toLow, toHigh)
   int v = maxDurationPoti.get();
   v = map(v, 0, 1023, minOut, maxOut);
